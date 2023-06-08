@@ -4,7 +4,7 @@ def roman_to_int(roman_string):
     dict2 = {"IV": 4, "IX": 9, "XL": 40, "XC": 90, "CD": 400, "CM": 900}
     total = 0
     i = 0
-    if roman_string is None or type (roman_string) != str:
+    if roman_string is None or type(roman_string) != str:
         return total
     while i < len(roman_string):
         sub = roman_string[i: i + 2]
