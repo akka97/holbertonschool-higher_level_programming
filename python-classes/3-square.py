@@ -3,7 +3,7 @@
 
 
 class Square:
-    """init gfunc"""
+    """init func"""
     def __init__(self, size=0):
         if type(size) is not int:
             raise TypeError('size must be an integer')
