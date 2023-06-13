@@ -36,5 +36,5 @@ class Square:
                     print('#')
                 else:
                     print('#', end="")
-            if self.__size == 0:
-                print()
+        if self.__size == 0:
+            print()
