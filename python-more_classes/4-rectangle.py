@@ -65,4 +65,4 @@ class Rectangle:
         return string
 
     def rectangle_repr(self):
-        return f"rectangle({width}, {height})"
+        return f"rectangle({self.width}, {self.height})"
