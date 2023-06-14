@@ -55,7 +55,7 @@ class Rectangle:
 
     def __str__(self):
         string = ""
-        if self.__height and self.__width = 0:
+        if self.__height and self.__width == 0:
             return string
         for i in range(self.__height):
             for j in range(self.__width):
