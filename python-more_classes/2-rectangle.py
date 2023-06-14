@@ -45,8 +45,8 @@ class Rectangle:
             self.__height = value
 
     def area(self):
-        return self.__area
+        return self.area
 
     def perimeter(self):
         if type(width) or type(height) != 0:
-            return self.__perimeter
+            return self.perimeter
