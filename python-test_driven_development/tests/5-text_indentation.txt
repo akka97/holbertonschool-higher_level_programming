@@ -12,8 +12,8 @@ Text must be string
 
 Function should print formated text
 
-	>>> text_indentation("Hey You. How old are you? I am: 30")
-	Hey You.
+	>>> text_indentation("Hey you. How old are you? I am: 30")
+	Hey you.
 	<BLANKLINE>
 	How old are you?
 	<BLANKLINE>
@@ -23,7 +23,7 @@ Function should print formated text
 
 Even when there are lots of spaces
 
-	>>> text_indentation("Hey You.    How old are you?   30")
+	>>> text_indentation("Hey you.    How old are you?   30")
 	Hey you.
 	<BLANKLINE>
 	How old are you?
