@@ -1,0 +1,37 @@
+Module 5-text_indentation(text)
+
+def text_indentation(text) Prints the given text while being formated
+
+	>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Text must be string
+
+	>>> text_indentation(2)
+	Traceback (most recent call last):
+	TypeError: text must be a string
+
+Function should print formated text
+
+	>>> text_indentation("Hey You. How are you? I am: Fine")
+	Hey You.
+	<BLANKLINE>
+	How are you?
+	<BLANKLINE>
+	I am:
+	<BLANKLINE>
+	Fine
+
+Even when there are lots of spaces
+
+	>>> text_indentation("Hey    You.    How are you?   Fine")
+	Hey you.
+	<BLANKLINE>
+	How are you?
+	<BLANKLINE>
+	Fine
+
+If function is missing argument
+
+	>>> text_indentation()
+	Traceback (most recent call last):
+	TypeError: text_indentation() missing 1 required positional argument: 'text'
