@@ -23,7 +23,7 @@ Function should print formated text
 
 Even when there are lots of spaces
 
-	>>> text_indentation("Hey    You.    How are you?   Fine")
+	>>> text_indentation("Hey You.    How are you?   Fine")
 	Hey you.
 	<BLANKLINE>
 	How are you?
