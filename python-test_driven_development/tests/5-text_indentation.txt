@@ -12,23 +12,23 @@ Text must be string
 
 Function should print formated text
 
-	>>> text_indentation("Hey You. How are you? I am: Fine")
+	>>> text_indentation("Hey You. How old are you? I am: 30")
 	Hey You.
 	<BLANKLINE>
-	How are you?
+	How old are you?
 	<BLANKLINE>
 	I am:
 	<BLANKLINE>
-	Fine
+	30
 
 Even when there are lots of spaces
 
-	>>> text_indentation("Hey You.    How are you?   Fine")
+	>>> text_indentation("Hey You.    How old are you?   30")
 	Hey you.
 	<BLANKLINE>
-	How are you?
+	How old are you?
 	<BLANKLINE>
-	Fine
+	30
 
 If function is missing argument
 
