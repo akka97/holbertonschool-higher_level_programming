@@ -2,7 +2,7 @@
 """Text identation module"""
 
 
-def text_identation(text):
+def text_indentation(text):
     """Idents text when needed"""
     if type(text) is not str:
         raise TypeError('text must be a string')
