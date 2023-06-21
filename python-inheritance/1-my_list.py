@@ -4,5 +4,7 @@
 class MyList(list):
     """Prints a sorted list"""
     def print_sorted(self):
-        sorted_list = sorted(self)
-        print(sorted_list)
+        ls = self.copy()
+        list.sort()
+        print(list)
+        return list
