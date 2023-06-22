@@ -13,7 +13,7 @@ if os.path.exists('ad_item.json') is not True:
         load = []
         save_to_json_file(load, 'add_item.json')
 load = load_from_json_file('add_item.json')
-for i in range(len(atgv)):
+for i in range(len(argv)):
     if i != 0:
         load.append(argv[i])
 save_to_json_file(load, 'add_item.json')
