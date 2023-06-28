@@ -41,7 +41,7 @@ class Rectangle(Base):
     @property
     def x(self):
         return self.__x
-    
+
     @x.setter
     def x(self, x):
         if not isinstance(y, int):
@@ -53,7 +53,7 @@ class Rectangle(Base):
     @property
     def y(self):
         return self.__y
-    
+
     @y.setter
     def y(self, y):
         if not isinstance(x, int):
