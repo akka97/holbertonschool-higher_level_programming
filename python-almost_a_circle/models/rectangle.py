@@ -82,12 +82,12 @@ class Rectangle(Base):
 
     def update(self, *args, **kwargs):
         '''function that updates'''
-        list_args_ = ["id", "width", "height", "x", "y"]
+        list_args = ["id", "width", "height", "x", "y"]
 
         if args and len(args) != 0:
             for in in range(len(args)):
                 setattr(self, list_args[i], args[i])
         else:
             for key, value in kwargs.items():
-                if hasattr(Self, key):
+                if hasattr(self, key):
                     setattr(self, key, value)
