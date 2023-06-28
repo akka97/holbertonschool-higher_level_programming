@@ -45,9 +45,9 @@ class Rectangle(Base):
     @x.setter
     def x(self, x):
         if not isinstance(x, int):
-            raise TypeError("y must be an integer")
+            raise TypeError("x must be an integer")
         if y < 0:
-            raise ValueError("y must be >= 0")
+            raise ValueError("x must be >= 0")
         self.__x = x
 
     @property
