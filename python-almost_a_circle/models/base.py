@@ -43,7 +43,7 @@ class Base:
         '''Turns a string to a python object'''
         if json_string is None:
             return []
-        return json.load(json_string)
+        return json.loads(json_string)
 
     @classmethod
     def create(cls, **dictionary):
