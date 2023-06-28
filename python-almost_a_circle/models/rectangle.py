@@ -94,8 +94,10 @@ class Rectangle(Base):
 
     def to_dictionary(self):
         'Dictionary returning representation of the rectangle object'''
-        ls = ['id', 'width'. 'height', 'x', 'y']
-        toDict = {}
-        for item in ls:
-            toDict[item] = getattr(self, item)
-        return toDict
+        return {
+                'id': self.id,
+                'width': self.width,
+                'height': self.height,
+                'x': self.x,
+                'y': self.y
+                }
