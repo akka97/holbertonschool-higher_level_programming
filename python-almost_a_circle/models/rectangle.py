@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-'''Rectangle class'''
+'''Inherted class'''
 
 class Rectangle(Base):
+    '''Rectangle class'''
     def __init__(self, width, height, x=0, y=0, id=None):
         self.__width = width
         self.__height = height
@@ -13,29 +14,29 @@ class Rectangle(Base):
         return self.__width
 
     @width.setter
-    def width(self, value):
-        self.__width = value
+    def width(self, width):
+        self.__width = width
 
     @property
     def height(self):
         return self.__height
 
     @height.setter
-    def height(self, value):
-        self.__height = value
+    def height(self, height):
+        self.__height = height
 
     @property
     def x(self):
         return self.__x
     
     @x.setter
-    def x(self, value):
-        self.__x = value
+    def x(self, x):
+        self.__x = x
 
     @property
     def y(self):
         return self.__y
     
     @y.setter
-    def y(self, value):
-        self.__y = value
+    def y(self, y):
+        self.__y = y
