@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 '''Inherted class'''
 
+
 from models.base import Base
 
 
