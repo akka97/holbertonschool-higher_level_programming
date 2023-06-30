@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module test"""
+"""Test module"""
 import io, sys, unittest, os
 from models.base import Base
 from models.rectangle import Rectangle
