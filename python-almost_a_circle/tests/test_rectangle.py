@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Test module"""
+"""Module test"""
 import unittest
 import io
 import sys
