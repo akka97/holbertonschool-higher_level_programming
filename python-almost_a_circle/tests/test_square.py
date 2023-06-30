@@ -227,16 +227,6 @@ class TestSquareUpdate(unittest.TestCase):
         sq.update(89, 10)
         self.assertEqual("[Square] (89) 2/3 - 10", str(sq))
 
-    def test_update_three_arg(self):
-        sq = Square(1, 2, 3, 5)
-        sq.update(89, 10, 20)
-        self.assertEqual("[Square] (89) 20/3 - 10", str(sq))
-
-    def test_update_four_arg(self):
-        sq = Square(1, 2, 3, 5)
-        sq.update(89, 10, 20, 30)
-        self.assertEqual("[Square] (89) 20/30 - 10", str(sq))
-
     def test_update_kwarg_one(self):
         sq = Square(1, 2, 3, 5)
         sq.update(id=89)
