@@ -17,6 +17,6 @@ if __name__ == "__main__":
     if states.count() == 0:
         print('Not found')
     else:
-        states = states.first
+        states = states.first()
         print("{}".format(states.id))
     session.close()
