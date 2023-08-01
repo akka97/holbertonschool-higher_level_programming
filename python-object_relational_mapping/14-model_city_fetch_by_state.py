@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """model state class"""
 from model_state import Base, State
+from model_city import City
 from sqlalchemy import (create_engine)
 from sqlalchemy.orm import Session
 import sys
