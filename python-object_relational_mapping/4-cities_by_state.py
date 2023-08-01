@@ -9,8 +9,8 @@ if __name__ == '__main__':
     p = sys.argv[2]
     d = sys.argv[3]
     db = MySQLdb.connect(host="localhost", port=3306,
-                         user=sys.argv[1], passwd=sys.argv[2],
-                         db=sys.argv[3], charset="utf8")
+                         user=u, passwd=p,
+                         db=d, charset="utf8")
     cr = db.cursor()
     query = " ".join([
         "SELECT cities.id, cities.name, states.name",
