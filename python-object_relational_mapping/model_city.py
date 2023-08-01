@@ -9,8 +9,8 @@ Base = declarative_base()
 
 
 class City(Base):
-        """state class"""
-        __tablename__ = 'cities'
-        id = Column(Integer, Sequence('user_id_seq'), primary_key=True)
-        name = Column(String(128))
-        state_id = Column(Integer, ForeignKey("states.id"), nullable=False)
+    """state class"""
+    __tablename__ = 'cities'
+    id = Column(Integer, Sequence('user_id_seq'), primary_key=True)
+    name = Column(String(128))
+    state_id = Column(Integer, ForeignKey("states.id"), nullable=False)
